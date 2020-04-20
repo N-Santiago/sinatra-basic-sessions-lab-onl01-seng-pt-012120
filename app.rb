@@ -13,6 +13,7 @@ get '/' do
 end 
 
 post '/checkout' do
-  @item = 
+  @item = params[:item]
+  
 
 end
